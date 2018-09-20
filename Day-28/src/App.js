@@ -29,9 +29,6 @@ class App extends Component {
           </main>
           <footer>
             &copy; 2018 John Miester
-
-            <Route path='/dashboard'
-              component={() => <p>Dashboard Footer</p>} />
           </footer>
         </div>
       </BrowserRouter>
